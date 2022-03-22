@@ -5,11 +5,11 @@ import Formulario from "./components/Formulario";
 import { IEvento } from "./interfaces/IEvento";
 import Calendario from "./components/Calendario";
 import ListaDeEventos from "./components/ListaDeEventos";
-
 import { RecoilRoot } from "recoil";
 
-function App() {
 
+function App() {
+  
   // const [eventos, setEventos] = useState<IEvento[]>([
   //   {
   //     descricao: "Estudar React",
@@ -46,9 +46,15 @@ function App() {
   //   }
   //   setEventos([...eventos]);
   // };
-  const deletarEvento = (id: number) => {
-    //setEventos([...eventos.filter((evento) => evento.id !== id)]);
-  };
+
+
+
+
+  // const deletarEvento = (id: number) => {
+  //   setEventos([...eventos.filter((evento) => evento.id !== id)]);
+  // };
+
+
 
   const aplicarFiltro = (data: Date | null) => {
     setFiltro(data);
@@ -74,7 +80,7 @@ function App() {
             <ListaDeEventos
               aoFiltroAplicado={aplicarFiltro}
               aoAlterarStatus={alterarStatusEvento}
-              aoDeletarEvento={deletarEvento}
+              
             />
           </Card>
         </div>
@@ -84,6 +90,6 @@ function App() {
       </div>
     </RecoilRoot>
   );
-};
+}
 
 export default App;
