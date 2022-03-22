@@ -14,6 +14,8 @@ const EventoCheckbox: React.FC<{
     };
     eventoAlterado.completo = !eventoAlterado.completo;
 
+
+
     setListaDeEventos((listaAntiga) => {
       const indice = listaAntiga.findIndex((evt) => evt.id === evento.id);
       return [
@@ -22,6 +24,8 @@ const EventoCheckbox: React.FC<{
         ...listaAntiga.slice(indice + 1),
       ];
     });
+
+    
   };
 
   const estilos = [

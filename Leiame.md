@@ -18,7 +18,12 @@ Moment.js:
 yarn add moment
 
 Kalend - calendar component for React:
+https://kalend.org/
+https://docs.kalend.org/docs/intro
 npm i kalend
+
+onEventDragFinish --> corrige bug de arrasta evento
+
 
 typed-css-modules-webpack-plugin:
 yarn add typed-css-modules-webpack-plugin
