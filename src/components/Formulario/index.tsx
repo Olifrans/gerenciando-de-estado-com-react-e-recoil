@@ -15,7 +15,7 @@ const Formulario: React.FC = () => {
     const dataString = data.slice(0, 10);
     return new Date(`${dataString}T${hora}`);
   };
-s
+
   const submeterForm = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     try {
