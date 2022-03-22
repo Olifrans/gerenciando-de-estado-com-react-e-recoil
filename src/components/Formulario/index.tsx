@@ -25,7 +25,9 @@ const Formulario: React.FC = () => {
         fim: montarData(dataFim, horaFim),
         completo: false,
       };
+
       adicionarEvento(evento);
+
       setDescricao("");
       setDataInicio("");
       setHoraInicio("");
@@ -39,7 +41,6 @@ const Formulario: React.FC = () => {
   return (
     <form className={style.Formulario} onSubmit={submeterForm}>
       <h3 className={style.titulo}>Novo evento</h3>
-
       <label>Descrição</label>
       <input
         type="text"

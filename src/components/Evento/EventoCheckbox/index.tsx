@@ -12,7 +12,6 @@ const EventoCheckbox: React.FC<{
       ...evento,
     };
     eventoAlterado.completo = !eventoAlterado.completo;
-
     atualizarEvento(eventoAlterado);
   };
 
@@ -21,7 +20,7 @@ const EventoCheckbox: React.FC<{
     "fa-2x",
     evento.completo ? "fa-check-square" : "fa-square",
   ];
-
+  
   return <i className={estilos.join(" ")} onClick={alterarStatus}></i>;
 };
 
