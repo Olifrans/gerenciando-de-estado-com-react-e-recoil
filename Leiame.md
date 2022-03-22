@@ -44,4 +44,6 @@ To install with npm:
 npm install -D typescript-plugin-css-modules
 
 
-
+### Dicas de leituras
+https://www.alura.com.br/artigos/o-que-e-clean-code
+Clean Code: O que é, Casos de Uso, Exemplo de Código Limpo
