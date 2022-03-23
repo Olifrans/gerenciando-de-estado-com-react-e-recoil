@@ -25,8 +25,6 @@ npm i kalend
 onEventDragFinish --> corrige bug de arrasta evento
 
 
-typed-css-modules-webpack-plugin:
-yarn add typed-css-modules-webpack-plugin
 
 Sass makes CSS fun again:
 yarn add sass
