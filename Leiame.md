@@ -33,6 +33,7 @@ yarn add sass
 
 typescript-plugin-css-modules:
 npm i typescript-plugin-css-modules
+yarn add typescript-plugin-css-modules
 
 
 
