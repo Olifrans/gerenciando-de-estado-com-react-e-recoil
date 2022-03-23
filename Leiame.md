@@ -47,3 +47,18 @@ npm install -D typescript-plugin-css-modules
 ### Dicas de leituras
 https://www.alura.com.br/artigos/o-que-e-clean-code
 Clean Code: O que é, Casos de Uso, Exemplo de Código Limpo
+
+
+
+
+# JSON Server
+https://github.com/typicode/json-server#getting-started
+npm install -g json-server
+
+Start JSON Server
+json-server --watch db.json
+
+Passando o número da porta:
+json-server --watch db.json -p + número da porta
+
+Mais sobroe o JSon server : https://www.alura.com.br/artigos/mockando-apis-rest-com-json-server
